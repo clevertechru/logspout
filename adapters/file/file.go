@@ -23,7 +23,7 @@ func init() {
 	router.AdapterFactories.Register(NewFileAdapter, "file")
 }
 
-// NewRawAdapter returns a configured raw.Adapter
+// NewFileAdapter returns a configured raw.Adapter
 func NewFileAdapter(route *router.Route) (router.LogAdapter, error) {
 	// default log dir
 	logdir := "/var/log/"
@@ -105,7 +105,7 @@ func (a *Adapter) Stream(logstream chan *router.Message) {
 	}
 }
 
-// Perform the actual act of rotating and reopening file.
+// Rotate Perform the actual act of rotating and reopening file.
 func (a *Adapter) Rotate() (err error) {
 	// Close existing file if open
 	if a.fp != nil {
