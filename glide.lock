@@ -35,7 +35,7 @@ imports:
   subpackages:
   - libcontainer/user
 - name: github.com/Sirupsen/logrus
-  version: f3cfb454f4c209e6668c95216c4744b8fddb2356
+  version: d329d24db4313262a3b0a24d8aeb1dc4bd294fb0
 - name: golang.org/x/net
   version: f841c39de738b1d0df95b5a7187744f0e03d8112
   subpackages:

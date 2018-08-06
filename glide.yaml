@@ -1,9 +1,10 @@
-package: github.com/gliderlabs/logspout
+package: github.com/clevertechru/logspout
 excludeDirs:
 - custom
 import:
 - package: github.com/fsouza/go-dockerclient
 - package: github.com/gorilla/mux
+- package: golang.org/x/crypto/ssh/terminal
 - package: golang.org/x/net
   subpackages:
   - websocket

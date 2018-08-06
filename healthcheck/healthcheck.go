@@ -3,7 +3,7 @@ package healthcheck
 import (
 	"net/http"
 
-	"github.com/gliderlabs/logspout/router"
+	"github.com/clevertechru/logspout/router"
 	"github.com/gorilla/mux"
 )
 

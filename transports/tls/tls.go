@@ -4,8 +4,8 @@ import (
 	"crypto/tls"
 	"net"
 
-	"github.com/gliderlabs/logspout/adapters/raw"
-	"github.com/gliderlabs/logspout/router"
+	"github.com/clevertechru/logspout/adapters/raw"
+	"github.com/clevertechru/logspout/router"
 )
 
 func init() {
